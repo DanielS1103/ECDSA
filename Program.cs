@@ -1,7 +1,9 @@
 using ECDsa;
+using System.Numerics;
 
-Tools.ECPoint p1 = new () { x = 3.096, y = 6.055 };
-Tools.ECPoint p1 = new () { x = -1.650, y = 1.581 };
-Tools.ECPoint p3 = Tools.Add(p1, p2);
+BigInteger k = BigInteger.Parse("1", System.Globalization.NumberStyles.HexNumber);
+Tools.ECPoint PublicKey = Tools.Multiply(k);
 
-console.WriteLine($"({p3.x}, {p3.y})");
+Console.WriteLine("Public Key: ");
+Console.WriteLine("X: " + PublicKey.X.ToString("x2").TrimStart(new char[] { '0' }));
+Console.WriteLine("Y: " + PublicKey.Y.ToString("x2").TrimStart(new char[] { '0' }));
