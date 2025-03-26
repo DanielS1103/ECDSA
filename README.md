@@ -67,5 +67,5 @@ El uso de ECC permite generar claves más pequeñas con el mismo nivel de seguri
    ```bash
    git clone https://github.com/tu_usuario/tu_repositorio.git
 
-## Visualización
+## Visualización de .ipynb
 https://nbviewer.org/github/DanielS1103/ECDSA/blob/main/Implementaci%C3%B3n_y_fundamentaci%C3%B3n_de_ECDSA.ipynb
