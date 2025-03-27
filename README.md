@@ -105,7 +105,9 @@ El repositorio contiene:
 - Tests unitarios que validan propiedades algebraicas
 - Notebooks interactivos con demostraciones paso a paso
 
-### 4. Ejemplos Prácticos 🛠️
+---
+
+### Ejemplos Prácticos 🛠️
 
 #### Ejemplo en Campo Pequeño
 - **Curva**: \( y^2 = x^3 + 7 \) sobre \( 𝔽_{61} \).
@@ -113,9 +115,9 @@ El repositorio contiene:
 
 #### Secp256k1 (Curva de Bitcoin)
 - **Parámetros**:
-  - \( p = 2^{256} - 2^{32} - 977 \).
-  - \( n = \text{orden del grupo} \).
-  - Punto base \( G \) con coordenadas específicas.
+  - `p = 2²⁵⁶ - 2³² - 977`.
+  - **`n`**: Orden del grupo (número primo que define el tamaño del subgrupo generado por `G`).
+  - Punto base `G` con coordenadas específicas.
 - **Caso real**: Generación de claves, firma y verificación de mensajes.
 
 ---
