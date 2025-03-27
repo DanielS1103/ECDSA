@@ -9,6 +9,9 @@ Este documento aborda la implementación y fundamentos teóricos del algoritmo d
 - **Operaciones en curvas elípticas:** Se describen las operaciones de suma y multiplicación de puntos en una curva elíptica, fundamentales para ECDSA.
 - **Grupo de puntos de la curva:** Se demuestra que los puntos de una curva elíptica forman un grupo abeliano bajo la operación de suma.
 
+## Visualización de .ipynb
+https://nbviewer.org/github/DanielS1103/ECDSA/blob/main/Implementaci%C3%B3n_y_fundamentaci%C3%B3n_de_ECDSA.ipynb
+
 ## Implementación
 # Firma Digital con Curvas Elípticas (ECC)
 
@@ -66,6 +69,3 @@ El uso de ECC permite generar claves más pequeñas con el mismo nivel de seguri
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/tu_usuario/tu_repositorio.git
-
-## Visualización de .ipynb
-https://nbviewer.org/github/DanielS1103/ECDSA/blob/main/Implementaci%C3%B3n_y_fundamentaci%C3%B3n_de_ECDSA.ipynb
